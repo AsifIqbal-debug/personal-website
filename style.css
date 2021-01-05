@@ -19,7 +19,7 @@ body{
     color: rgba(7, 6, 46, 0.767) ;
 
 }
-.halfwidth h1{
+h1{
    
     
     color: rgba(7, 6, 46, 0.767);
@@ -54,6 +54,7 @@ h2
 
 section
 {
+    overflow:hidden;
     height: 500%;
     padding: 150px;
 }
@@ -66,3 +67,58 @@ section
     color: white;
     font-weight: 700%;
 }
+.semi-half
+{
+   
+    overflow:hidden;
+    width: 30%;
+    float: left;
+    margin: 1px;
+    padding: 5px;
+    
+}
+.semi-half img
+{
+    width: 100%;
+}
+.semi-half {
+   
+    background-color: whitesmoke;
+    width: 300px;
+    border: 1px solid white;
+    padding: 25px;
+    margin: 5px ;
+    border-radius: 5%;
+  }
+  #last1{
+      color: red;
+  }
+  .semi-half h4,p{
+      color: rgba(7, 6, 46, 0.767) ;
+  }
+  .last-banner{
+      background-color: whitesmoke;
+  }
+  .last-last-banner{
+      
+    text-align: center;
+    background-image: url(shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 50%,10%;
+    
+   
+      
+  }
+  .footer{
+      text-align: center;
+      padding-bottom: 15px;
+      
+      
+
+  }
+  .v{
+      height: 50px;
+      width: 30px;
+  }
+
